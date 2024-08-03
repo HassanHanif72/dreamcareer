@@ -18,28 +18,28 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                         <a class="nav-link <?php if ($page == 'index') { echo 'active'; } ?>" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="about-us">About Us</a>
+                        <a class="nav-link <?php if ($page == 'about-us') { echo 'active'; } ?>" href="about-us">About Us</a>
                     </li>
                     <li class="nav-item dropdown navdesktop">
                         <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="#">
                             Services <i class="fa fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-navdesktop" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="cv-writing">CV Writing</a></li>
-                            <li><a class="dropdown-item" href="#">CV And Cover Letter Writing</a></li>
-                            <li><a class="dropdown-item" href="#">Cv And Linkedin Writing</a></li>
-                            <li><a class="dropdown-item" href="#">CV, Cover Letter, And Linkedin Preparation</a></li>
-                            <li><a class="dropdown-item" href="#">Linkedin Profile Writing</a></li>
-                            <li><a class="dropdown-item" href="#">Job Placement</a></li>
+                            <li><a class="dropdown-item" href="cv">CV Writing</a></li>
+                            <li><a class="dropdown-item" href="cv-and-cover-letter">CV And Cover Letter Writing</a></li>
+                            <li><a class="dropdown-item" href="cv-and-linkedin">CV And Linkedin Writing</a></li>
+                            <li><a class="dropdown-item" href="cv-cover-letter-and-linkedin">CV, Cover Letter, And Linkedin Preparation</a></li>
+                            <li><a class="dropdown-item" href="linkedin-profile">Linkedin Profile Writing</a></li>
+                            <li><a class="dropdown-item" href="job-placement">Job Placement</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="#">
+                        <a class="nav-link <?php if ($page == 'industry-expertise') { echo 'active'; } ?>" href="industry-expertise">
                             Industry Expertise
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="#">
+                        <a class="nav-link <?php if ($page == 'samples') { echo 'active'; } ?>" href="samples">
                             Samples
                         </a>
                     </li>

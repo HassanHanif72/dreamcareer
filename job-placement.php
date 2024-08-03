@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV Writing</title>
+    <title>Job Placement Service in UK That Brings Results</title>
     <?php include 'links.php'?>
 </head>
 
@@ -20,7 +20,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="right-col">
-                        <h1><span>CV Wiring</span> Service in UK That Brings Results</h1>
+                        <h1><span>Job Placement</span> Service in UK That Brings Results</h1>
                         <p class="mb-4">CVWritingService.UK is a construction CV maker in UK that helps you to obtain
                             career success and leverage your expertise.</p>
                         <div class="d-flex align-items-center gap-3">
@@ -131,13 +131,8 @@
     <section class="noticed-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                    <div class="left-col">
-                        <img src="assets/images/img-9.png" class="img-fluid" alt="">
-                    </div>
-                </div>
                 <div class="col-xl-8 col-lg-8 col-md-8">
-                    <div class="right-col">
+                    <div class="left-col">
                         <h3><span>Get Noticed</span> with UK’s Best Written CVs for Construction Profession</h3>
                         <p>To secure the best role in this fierce market, you need your hands on an outstanding resume,
                             which reflects your
@@ -155,7 +150,11 @@
                             <li><img src="assets/images/check-icon.png" alt=""> Unlimited revisions,</li>
                             <li><img src="assets/images/check-icon.png" alt=""> Resumes in every format</li>
                         </ul>
-
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="right-col">
+                        <img src="assets/images/img-19.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -199,6 +198,43 @@
             </div>
         </div>
     </section>
+    <!-- end -->
+
+    <!-- sec 7 -->
+    <section class="sec-seven pb-0">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-5 col-lg-5 col-md-5">
+                    <div class="left-col">
+                        <h3>Your Bridge to Professional Growth</h3>
+                        <p>Sed placerat convallis aenean fermentum. Aliquet eget feugiat sed consectetur sodales
+                            eleifend.</p>
+                        <div class="points-sec">
+                            <span>Innovative Matching Algorithm</span>
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </div>
+                        <div class="points-sec">
+                            <span>User-Friendly Interface</span>
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </div>
+                        <div class="points-sec">
+                            <span>Comprehensive Job Listings</span>
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="right-col">
+                        <img src="assets/images/img-20.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- how it works sec -->
+    <?php  include 'how-it-works-sec.php'?>
     <!-- end -->
 
     <!-- testimonial sec -->

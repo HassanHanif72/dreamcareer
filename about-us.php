@@ -46,6 +46,10 @@
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="left-col">
                         <img src="assets/images/about-img.png" class="img-fluid" alt="">
+                        <div class="counter-box">
+                            <span>2,560 <i class="fa fa-plus"></i></span>
+                            <p>Job Recruitment</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -261,7 +265,7 @@
                             <li><a>- Non-Profit</a></li>
                             <li><a>- Aerospace & Aviation</a></li>
                             <li><a>- Education</a></li>
-                            
+
                         </ul>
 
                     </div>
