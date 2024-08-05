@@ -164,15 +164,7 @@
         </div>
     </section>
     <!-- end -->
-
-    <!-- testimonial sec -->
-    <?php  include 'testimonial-sec.php'?>
-    <!-- end -->
-
-    <!-- blog sec -->
-    <?php  include 'blog-sec.php'?>
-    <!-- end -->
-
+     
     <!-- subscribe sec -->
     <?php  include 'subscribe-banner.php'?>
     <!-- end -->

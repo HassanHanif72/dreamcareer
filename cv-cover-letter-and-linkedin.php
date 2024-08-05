@@ -18,7 +18,7 @@
     <section class="top-banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-10">
                     <div class="right-col">
                         <h1><span>All-in Cv, Cover Letter</span> ,And Linkedin Preparation Service</h1>
                         <p class="mb-4">CVWritingService.UK is a construction CV maker in UK that helps you to obtain
@@ -204,7 +204,7 @@
     <section class="sec-seven pb-0">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-xl-5 col-lg-5 col-md-5">
+                <div class="col-xl-5 col-lg-6 col-md-6">
                     <div class="left-col">
                         <h3>Your Bridge to Professional Growth</h3>
                         <p>Sed placerat convallis aenean fermentum. Aliquet eget feugiat sed consectetur sodales

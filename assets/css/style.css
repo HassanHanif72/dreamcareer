@@ -106,6 +106,12 @@ ul.dropdown-menu {
   color: #000000 !important;
 }
 
+.dropdown-menu li.active,
+.dropdown-menu li.active a {
+  background: white;
+  color: #000000 !important;
+}
+
 .navbar-brand img {
   /* width: 245px;
   height: 115px; */
@@ -240,7 +246,7 @@ header.sticky img {
   margin-right: 0;
 }
 
-.sah input {
+.form-body input {
   width: 100%;
   margin-top: 0px;
   border: 1px solid #D7D7D7;
@@ -253,29 +259,29 @@ header.sticky img {
   padding-right: 0 !important;
 }
 
-.sah input::placeholder {
+.form-body input::placeholder {
   color: #1e1e1e !important;
   font-weight: 500;
   font-size: var(--font-size);
 }
 
-.sah input:focus {
+.form-body input:focus {
   background-color: white;
   color: #1e1e1e;
-  border-color: #013fde;
+  border-color: #215BC8;
   box-shadow: none;
 }
 
-.sah {
+.form-body {
   position: relative;
 }
 
-.sah button {
+.form-body button {
   width: 50%;
   border: none;
 }
 
-.hfdf {
+.form-inner {
   display: flex;
 }
 
@@ -360,7 +366,7 @@ header.sticky img {
 }
 
 .service-sec .card .card-body a {
-  color: #013fde;
+  color: #215BC8;
   text-decoration: none;
   font-weight: 400;
 }
@@ -1564,6 +1570,62 @@ header.sticky img {
   left: 0;
 }
 
+/* contact us */
+.contact-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-us .center-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-us .center-heading>h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contact-us .center-heading>h2>span {
+  color: #3870D9;
+}
+
+.contact-us form label {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.contact-us form input,
+.contact-us form select,
+.contact-us form textarea {
+  background: #F9FBFD !important;
+  border-color: #DEE2EA;
+}
+
+.contact-us form label>span {
+  color: #FF6565;
+}
+
+.contact-us .center-heading>p {
+  font-weight: 400;
+  font-size: var(--font-size);
+}
+
+.contact-us .contact-bg {
+  padding: 20px;
+  border-radius: 10px;
+  background: #F6F6F6;
+}
+
+.contact-us .contact-white {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* end */
 /* form */
 /* Works for Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -1794,7 +1856,6 @@ input::-webkit-inner-spin-button {
 
 .footer-links>ul>li>a:hover {
   color: #215BC8;
-  padding-left: 10px;
 }
 
 .social>p>span {
@@ -1896,9 +1957,67 @@ input::-webkit-inner-spin-button {
 
 /* end */
 
-.footer-logo .trust-img {
-  width: 10rem;
+/* model popup */
+.model-discount span {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #215BC8;
 }
+
+.model-discount span label {
+  color: #215BC8;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.model-discount label {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.model-sec .modal-body {
+  padding: 0;
+  position: relative;
+}
+
+.model-sec .modal-content {
+  border-radius: 30px;
+  border: none;
+}
+
+.model-discount {
+  padding: 30px 40px 30px 40px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.model-input {
+  padding: 10px 15px;
+  color: black !important;
+  border: 2px solid #DEE2EA;
+  background: #F9FBFD !important;
+}
+
+.model-input:focus {
+  /*border-color: #000000 !important;*/
+}
+
+.model-input::placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.model-discount .btn-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  box-shadow: none;
+}
+
+/* end */
 
 /*scroll*/
 ::-webkit-scrollbar {

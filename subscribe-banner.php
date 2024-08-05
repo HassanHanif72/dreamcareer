@@ -3,7 +3,7 @@
         <div class="row d-flex align-items-center">
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="banner-img">
-                    <img src="assets/images/subscribe-banner.png" class="w-100" alt="">
+                    <img src="assets/images/subscribe-banner.png" class="w-100 d-md-block d-none" alt="">
                     <div class="subscribe-form-sec">
                         <h4>New Things Will Always Update Regularly</h4>
                         <form action="#" class="needs-validation" novalidate="">

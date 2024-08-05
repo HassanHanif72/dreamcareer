@@ -18,7 +18,7 @@
     <section class="top-banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-10">
                     <div class="right-col">
                         <h1><span>Industry </span>Expertise</h1>
                         <p class="mb-4">CVWritingService.UK is one of its kind platform that helps you launch your
@@ -43,7 +43,7 @@
     <section class="about-us">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="left-col">
                         <img src="assets/images/about-img.png" class="img-fluid" alt="">
                         <div class="counter-box">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="right-col">
                         <h2>We Managed Your jobs Lets Work with Together</h2>
                         <p>Our Business Process Outsourcing allows you to save on operational costs, reduce your

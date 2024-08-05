@@ -18,7 +18,7 @@
     <section class="top-banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-10">
                     <div class="right-col">
                         <h1>Game-Changing <span> Solutions </span>For Business's Success!</h1>
                         <p class="mb-4">Connect with top freelancers and clients on our platform! find your perfect
@@ -136,8 +136,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8">
+            <div class="row align-items-center">
+                <div class="col-xl-8 col-lg-8 col-md-12">
                     <div class="tabs-inner">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4">
-                    <div class="right-img text-end">
+                    <div class="right-img text-end d-lg-block d-none">
                         <img src="assets/images/img-2.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -287,7 +287,7 @@
     <!-- two banner sec -->
     <section class="two-banner">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center g-3">
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="left-banner">
                         <img src="assets/images/img-5.png" class="w-100" alt="">

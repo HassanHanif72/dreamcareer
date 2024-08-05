@@ -18,7 +18,7 @@
     <section class="top-banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-10">
                     <div class="right-col">
                         <h1>A Little <span>About CV </span> Writing Service UK </h1>
                         <p class="mb-4">CVWritingService.UK is one of its kind platform that helps you launch your
@@ -43,7 +43,7 @@
     <section class="about-us">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="left-col">
                         <img src="assets/images/about-img.png" class="img-fluid" alt="">
                         <div class="counter-box">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="right-col">
                         <span>About Dream Career</span>
                         <h2>Finding The Jobs That You
@@ -94,8 +94,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8">
+            <div class="row align-items-center">
+                <div class="col-xl-8 col-lg-8 col-md-12">
                     <div class="tabs-inner">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4">
-                    <div class="right-img text-end">
+                    <div class="right-img text-end d-lg-block d-none">
                         <img src="assets/images/img-8.png" class="img-fluid" alt="">
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-12">
+            <div class="col-xl-4 col-lg-4 col-md-12">
                 <div class="footer-logo">
                     <a href="index"><img src="assets/images/logo.png"></a>
                     <p>Dream Career is the heart of the design community and the best resource to discover and connect
@@ -20,34 +20,26 @@
             </div>
             <div class="col-xl-2 col-lg-2 col-md-6 col-6">
                 <div class="footer-links ">
-                    <h6>Resources</h6>
+                    <h6>Quick Links</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"> About us</a></li>
-                        <li><a href="#"> Our Team</a></li>
-                        <li><a href="#"> Products</a></li>
-                        <li><a href="#"> Contact Us</a></li>
+                        <li><a href="index">- Home</a></li>
+                        <li><a href="about-us">- About Us</a></li>
+                        <li><a href="industry-expertise">- Industry Expertise</a></li>
+                        <li><a href="samples">- Samples</a></li>
+                        <li><a href="contact-us">- Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-6">
                 <div class="footer-links ">
-                    <h6>Community</h6>
+                    <h6>Services</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"> Feature</a></li>
-                        <li><a href="#"> Pricing</a></li>
-                        <li><a href="#"> Credit</a></li>
-                        <li><a href="#"> FAQ</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-2 col-md-6 col-6">
-                <div class="footer-links ">
-                    <h6>Quick links</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="#"> iOS</a></li>
-                        <li><a href="#"> Android</a></li>
-                        <li><a href="#"> Microsoft</a></li>
-                        <li><a href="#"> Desktop</a></li>
+                        <li><a href="cv">- CV Writing</a></li>
+                        <li><a href="cv-and-cover-letter">- CV And Cover Letter Writing</a></li>
+                        <li><a href="cv-and-linkedin">- CV And Linkedin Writing</a></li>
+                        <li><a href="cv-cover-letter-and-linkedin">- CV, Cover Letter, And Linkedin</a></li>
+                        <li><a href="linkedin-profile">- Linkedin Profile Writing</a></li>
+                        <li><a href="job-placement">- Job Placement</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,7 +65,7 @@
     <div class="container">
         <div class="row align-items-center mt-0 pt-2 pb-2">
             <div class="col-xl-12 col-lg-12 col-md-12">
-                <div class="footer-bootom-links d-flex align-items-center justify-content-between">
+                <div class="footer-bootom-links d-md-flex align-items-center justify-content-between">
                     <p>© Copyright 2024 . Dream Career . All rights reserved.</p>
                     <div class="last-links">
                         <a href="#">Term And Conditions</a> | <a href="#">Privacy Policy</a>
@@ -104,37 +96,46 @@
     <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link <?php if ($page == 'index') { echo 'active'; } ?>" href="index">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link <?php if ($page == 'about-us') { echo 'active'; } ?>" href="about-us">About Us</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <a class="nav-link <?php if ($page == 'cv' || $page == 'cv-and-cover-letter' || $page == 'cv-and-linkedin' || $page == 'cv-cover-letter-and-linkedin' || $page == 'linkedin-profile' || $page == 'job-placement') { echo 'active'; } ?>"
+                    href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Services <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">CV Writing</a></li>
-                    <li><a class="dropdown-item" href="#">CV And Cover Letter Writing</a></li>
-                    <li><a class="dropdown-item" href="#">Cv And Linkedin Writing</a></li>
-                    <li><a class="dropdown-item" href="#">CV, Cover Letter, And Linkedin Preparation</a></li>
-                    <li><a class="dropdown-item" href="#">Linkedin Profile Writing</a></li>
-                    <li><a class="dropdown-item" href="#">Job Placement</a></li>
+                    <li class="<?php if ($page == 'cv') { echo 'active'; } ?>"><a class="dropdown-item" href="cv">CV
+                            Writing</a></li>
+                    <li class="<?php if ($page == 'cv-and-cover-letter') { echo 'active'; } ?>"><a class="dropdown-item"
+                            href="cv-and-cover-letter">CV And Cover Letter Writing</a>
+                    </li>
+                    <li class="<?php if ($page == 'cv-and-linkedin') { echo 'active'; } ?>"><a class="dropdown-item"
+                            href="cv-and-linkedin">CV And Linkedin Writing</a></li>
+                    <li class="<?php if ($page == 'cv-cover-letter-and-linkedin') { echo 'active'; } ?>"><a
+                            class="dropdown-item" href="cv-cover-letter-and-linkedin">CV, Cover Letter, And
+                            Linkedin Preparation</a></li>
+                    <li class="<?php if ($page == 'linkedin-profile') { echo 'active'; } ?>"><a class="dropdown-item"
+                            href="linkedin-profile">Linkedin Profile Writing</a></li>
+                    <li class="<?php if ($page == 'job-placement') { echo 'active'; } ?>"><a class="dropdown-item"
+                            href="job-placement">Job Placement</a></li>
                 </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="#">
+                <a class="nav-link <?php if ($page == 'industry-expertise') { echo 'active'; } ?>"
+                    href="industry-expertise">
                     Industry Expertise
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="#">
+                <a class="nav-link <?php if ($page == 'samples') { echo 'active'; } ?>" href="samples">
                     Samples
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if ($page == '#') { echo 'active'; } ?>" href="#">
+                <a class="nav-link <?php if ($page == 'contact-us') { echo 'active'; } ?>" href="contact-us">
                     Contact Us
                 </a>
             </li>

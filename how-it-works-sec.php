@@ -2,7 +2,7 @@
 <section class="steps-sec">
     <div class="container">
         <div class="row align-items-center justify-content-between">
-            <div class="col-xl-5 col-lg-5 col-md-5">
+            <div class="col-xl-5 col-lg-6 col-md-6">
                 <div class="left-col">
                     <span>How it Works</span>
                     <h3>A Step-by-Step Guide to Tokojobs</h3>

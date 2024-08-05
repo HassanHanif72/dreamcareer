@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row g-0">
-            <div class="col-xl-3 col-lg-3 col-md-3">
+            <div class="col-xl-3 col-lg-4 col-md-4">
                 <div class="side-tabs-left">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <button class="nav-link active" id="v-pills-cover-tab" data-bs-toggle="pill"
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-9">
+            <div class="col-xl-9 col-lg-8 col-md-8">
                 <div class="side-tabs-desc">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-cover" role="tabpanel"

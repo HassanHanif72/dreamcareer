@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="row justify-content-center align-items-center g-4">
-            <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="pricing-body">
                     <span>Basic</span>
                     <h4>ATS Approved Resume and Cover Letter.</h4>
@@ -32,7 +32,7 @@
                         data-bs-toggle="modal" data-bs-dismiss="modal">Order Now</a>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="pricing-body">
                     <span>Standard</span>
                     <h4>ATS Approved Resume, Cover Letter and LinkedIn Optimization.</h4>
@@ -53,7 +53,7 @@
                         data-bs-toggle="modal" data-bs-dismiss="modal">Order Now</a>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="pricing-body">
                     <span>Premium</span>
                     <h4>ATS Approved Resume, Cover Letter and LinkedIn Optimization.</h4>

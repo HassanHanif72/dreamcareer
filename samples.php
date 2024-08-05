@@ -18,7 +18,7 @@
     <section class="top-banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6 col-md-12">
+                <div class="col-xl-6 col-lg-6 col-md-10">
                     <div class="right-col">
                         <h1><span>Sample</span> CV</h1>
                         <p class="mb-4">CVWritingService.UK is one of its kind platform that helps you launch your
